@@ -292,4 +292,57 @@ width: 100%;
 #contact {
   margin: 80px auto 80px auto;
 }
-
+.contact-label {
+  font-weight: bold;
+}
+.contact-label > span {
+  color: #ce2222;
+  margin-left: 20px;
+  font-weight: bold;
+}
+#contact > form > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+.contact-heading {
+  width: 240px;
+  align-self: center;
+}
+.contact-textbox{
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 1px;
+  border-left: 0px;
+  border-style: solid;
+  background-color: #fafafa;
+  height: 56px;
+  width: 400px;
+}
+.contact-textarea {
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 1px;
+  border-left: 0px;
+  border-style: solid;
+  background-color: #fafafa;
+  height: 200px;
+  width: 400px;
+}
+#contact dt {
+  font-weight: bold;
+}
+#contact dd {
+  margin: 0 0 16px 0;
+}
+#contact dd p {
+  margin: 0 0 0 0;
+}
+#contact dd ul {
+  padding-left: 0;
+}
+#contact dd li {
+  list-style: none;
+  margin-bottom: 0;
+}
